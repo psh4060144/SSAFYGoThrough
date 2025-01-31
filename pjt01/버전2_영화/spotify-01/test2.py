@@ -19,8 +19,6 @@ def finding_filename(artist):
 
     return my_dict['id']
 
-
-
 # 아래의 코드는 수정하지 않습니다.
 if __name__ == '__main__':
     from pathlib import Path

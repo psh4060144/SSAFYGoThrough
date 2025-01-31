@@ -1,7 +1,6 @@
 import json
 from pprint import pprint
 
-
 def artist_info(artist):
 
     # 하드코딩 버전

@@ -2,7 +2,6 @@ import json
 from pprint import pprint
 from copy import deepcopy
 
-
 def artist_info(artist, genres):
 
     new_lst = []
@@ -27,7 +26,6 @@ def artist_info(artist, genres):
         new_lst = []  # 초기화
 
     return return_lst
-
 
 # 아래의 코드는 수정하지 않습니다.
 if __name__ == '__main__':  # 이 파일에 대해~

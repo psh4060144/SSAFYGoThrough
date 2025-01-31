@@ -1,7 +1,6 @@
 import json
 from pprint import pprint
 
-
 def artist_info(artist, genres):
 
     my_dict = {}
@@ -15,7 +14,6 @@ def artist_info(artist, genres):
                  my_dict['genres_ids'][num]= el['name']  # my_dict의 genres_ids의 value 값을 genres명으로 바꾼다
 
     return my_dict
-
 
 # 아래의 코드는 수정하지 않습니다.
 if __name__ == '__main__':  # 이 파일에 대해~
